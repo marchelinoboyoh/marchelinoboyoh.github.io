@@ -1,0 +1,155 @@
+@media screen and (max-width: 1200px) {
+  #hero h1 {
+    font-size: 2.4rem;
+  }
+  #hero p {
+    font-size: 0.8rem;
+  }
+  #hero img {
+    width: 400px;
+  }
+  .dcv {
+    margin-left: 8px;
+    font-size: 0.7rem;
+  }
+  .grid {
+    margin: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+    align-items: center;
+  }
+
+  #project img {
+    width: 490px;
+    margin: 30px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .dcv {
+    margin-left: 8px;
+    font-size: 0.7rem;
+  }
+  /*Skills and Tools*/
+  #skillstools .card_bottom {
+    margin-top: 10px;
+  }
+  #skillstools .card {
+    margin-top: 10px;
+    margin-bottom: 50px;
+  }
+  #skillstools h1 {
+    margin-top: 120px;
+  }
+  #skillstools .logo_1 img {
+    width: 18%;
+    margin-left: 1px;
+    margin-right: 1px;
+  }
+  #skillstools .logo_2 img {
+    margin-left: 25px;
+    margin-right: 25px;
+    width: 30%;
+  }
+  /*End Skills and Tools*/
+
+  .grid {
+    margin: 80px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+    align-items: center;
+  }
+
+  #project img {
+    width: 500px;
+    margin: 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* Hero */
+  #hero a {
+    font-size: 0.6rem;
+    color: #ffffff;
+    margin: 150px;
+  }
+  .btn1 {
+    width: 70%;
+  }
+
+  #hero .row {
+    padding-bottom: 150px;
+  }
+
+  .social-icon {
+    left: 60%;
+    transform: translate(-80%);
+  }
+  section h1 {
+    margin-top: 30px;
+  }
+  /*End Hero */
+
+  /*About */
+  #aboutme p {
+    text-align: justify !important;
+    font-size: 0.9em;
+  }
+  /*End About*/
+
+  /*Skills and Tools*/
+  #skillstools .card_bottom {
+    margin-top: 80px;
+    margin-bottom: 50px;
+  }
+  #skillstools .card {
+    margin-top: 20px;
+  }
+  #skillstools h1 {
+    margin-top: 100px;
+  }
+  #skillstools .logo_1 img {
+    width: 18%;
+    margin-left: 1px;
+    margin-right: 1px;
+  }
+  #skillstools .logo_2 img {
+    margin-left: 25px;
+    margin-right: 25px;
+    width: 30%;
+  }
+  /*End Skills and Tools*/
+
+  /*Project*/
+  #project img {
+    width: 430px;
+    margin: 30px;
+  }
+  /*End Project*/
+
+  /*Footer*/
+  .footer-social-icon {
+    text-align: center;
+  }
+
+  .footer_name {
+    text-align: center;
+  }
+  .footer_email {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  #hero img {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  #hero img {
+    width: 350px;
+  }
+}
